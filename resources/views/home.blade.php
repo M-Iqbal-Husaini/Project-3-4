@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Homepage</title>
 </head>
 <body>
@@ -17,8 +17,8 @@
                 <h4 class="text-secondary">Di Perpustakaan Politeknik Negeri Bengkalis</h4>
                 <h6 class="mt-3">
                     Silahkan
-                    <a href="" style="textdecoration: none">masuk</a>
-                    atau <a href="" style="textdecoration: none">daftar</a>
+                    <a href="{{route('auth.login')}}" style="textdecoration: none">masuk</a>
+                    atau <a href="{{route('auth.register')}}" style="textdecoration: none">daftar</a>
                     jika anda belum punya akun
                 </h6>
             </div>

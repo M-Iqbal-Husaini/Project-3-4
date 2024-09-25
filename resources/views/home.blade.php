@@ -17,8 +17,8 @@
                 <h4 class="text-secondary">Di Perpustakaan Politeknik Negeri Bengkalis</h4>
                 <h6 class="mt-3">
                     Silahkan
-                    <a href="{{route('auth.login')}}" style="textdecoration: none">masuk</a>
-                    atau <a href="{{route('auth.register')}}" style="textdecoration: none">daftar</a>
+                    <a href="{{route('auth.login')}}" style="text-decoration: none">masuk</a>
+                    atau <a href="{{route('auth.register')}}" style="text-decoration: none">daftar</a>
                     jika anda belum punya akun
                 </h6>
             </div>
